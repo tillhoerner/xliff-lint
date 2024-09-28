@@ -1,0 +1,19 @@
+{
+    "name": "thoerner/xliff-lint",
+    "description": "Provides the xliff:lint command from symfony/translation as standalone binary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Till Hörner",
+            "email": "thoerner@3pc.de"
+        }
+    ],
+    "require": {
+        "composer-runtime-api": "^2.2",
+        "symfony/console": "^6.4 || ^7.0",
+        "symfony/translation": "^6.4 || ^7.0"
+    },
+    "bin": [
+        "bin/xliff-lint"
+    ]
+}
